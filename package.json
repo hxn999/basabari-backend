@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"npm install"
+    "build":"npm install",
+    "start": "node index.js"
   },
   "author": "hasibul hasan",
   "license": "ISC",
