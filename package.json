@@ -1,0 +1,26 @@
+{
+  "name": "basabari",
+  "version": "1.0.0",
+  "description": "api backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npm install"
+  },
+  "author": "hasibul hasan",
+  "license": "ISC",
+  "dependencies": {
+    "@oliveringle/caesar-cipher": "^1.0.2",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.3",
+    "multer": "^1.4.5-lts.1",
+    "node-base64-image": "^2.0.7",
+    "nodemon": "^3.1.4"
+  }
+}
