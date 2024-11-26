@@ -38,7 +38,7 @@ app.use(express.static(path.join(__dirname,'public')));
 
 // routing setup
 // app.use('/',homeRouter)
-app.get("/",(req,res)=>res.json({"msg":"hi"}))
+app.get("/",(req,res)=>res.json({"msg":"How are you?"}))
 app.use('/post',postRouter) 
 app.use('/auth',authRouter) 
 app.use('/admin',adminRouter) 
